@@ -1,4 +1,5 @@
 from calendar_import import ics_to_dict
+from calendar_utils import 
 from ics import Calendar
 from datetime import datetime, timedelta
 import calendar
@@ -12,6 +13,9 @@ def load_ics_file(ics_file_path):
     except FileNotFoundError:
         ics_data = ""
     return ics_data
+
+def parse_text(text):
+    return Calendar(text)
 
 def is_conflicting(event1, event2):
     """Check if two events conflict."""
