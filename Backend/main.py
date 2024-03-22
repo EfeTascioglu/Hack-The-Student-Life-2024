@@ -12,16 +12,15 @@ def load_ics_file(ics_file_path):
         ics_data = ""
     return ics_data
 
-# Path to the .ics file
-ics_file_path = '../acorn_calendar.ics'
-
-initial_student_schedule = ics_to_dict(load_ics_file(ics_file_path))
-
-# Find empty time slots within initial_student_schedule
-
 def pretty_print_schedule(schedule):
     reduced_events_json = json.dumps(schedule, indent=4)
 
     print(reduced_events_json)
 
-pretty_print_schedule(initial_student_schedule)
+
+if __name__ == '__main__':
+    ics_file_path = '../acorn_calendar.ics'
+
+    initial_student_schedule = ics_to_dict(load_ics_file(ics_file_path))
+
+    pretty_print_schedule(initial_student_schedule)
