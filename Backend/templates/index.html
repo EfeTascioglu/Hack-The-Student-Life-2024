@@ -101,25 +101,32 @@
   </section>
   <!-- End About Section -->
 
-
     <!-- ======= Available Events ======= -->
     <section id="testimonials" class="testimonials section-bg">
-        <div class="container">
-  
-          <div class="section-title">
-            <span>Events for you</span>
-            <h2>Events for you</h2>
-            <p> Student </p>
-            <h1>Events Based on Your Interests</h1>
-            <ul>
-                {% for event in events %}
-                    <li>{{ event }}</li>
-                {% endfor %}
-            </ul>
-          </div>
+      <div class="container">
 
+        <div class="section-title">
+          <span>Events for you</span>
+          <h2>Events for you</h2>
+          <p>Student life, club events, and activities tailored for you!</p>
         </div>
-      </section><!-- End Testimonials Section -->
+
+        <div class="row">
+        {% for event in events %}
+          <div class="col-lg-4">
+            <div class="testimonial-item">
+              <h3>{{ event }}</h3>
+              <p>
+                Description of event 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla justo purus, vehicula non suscipit eget, varius sed justo.
+              </p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
 
   </main><!-- End #main -->
 

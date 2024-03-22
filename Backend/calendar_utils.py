@@ -36,8 +36,8 @@ def find_non_conflicting_events(student_schedule, events_schedules):
     for events_schedule in events_schedules:
         for event in events_schedule.events:
             # Check if the event is within the current week
-            if event.begin.datetime < start_of_week or event.end.datetime > end_of_week:
-                continue  # Skip events not within the current week
+            #if event.begin.datetime < start_of_week or event.end.datetime > end_of_week:
+            #    continue  # Skip events not within the current week
             
             conflict_found = False
             

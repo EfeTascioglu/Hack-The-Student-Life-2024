@@ -71,11 +71,14 @@ def find_events():
         student_schedule = parse_text(student_text)
         events_schedule = parse_text(events_text)
         non_conflicting_events = find_non_conflicting_events(student_schedule, events_schedule)
-        print(non_conflicting_events)
+
+        events = [event.name for event in non_conflicting_events]
+
+        # ChatGPT
+        comma_sep_list = find_activities_that_are_relevant(events, interests)
         
         # Process the calendar and interests to get a list of events
         #events = process_calendar_and_interests(calendar, interests)
-        events = ["Event 1", "Event 2", "Event 3"]
         # Now pass the list of events to another template (e.g., events.html)
 
         return render_template('index.html', events=events)
