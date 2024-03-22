@@ -25,4 +25,4 @@ def api_openai_request():
     return jsonify({"success": True, "response": json})
 
 if __name__ == '__main__':
-    application.run(host='0.0.0.0', port=5000, debug=False)
+    application.run(host='0.0.0.0', port=int(os.environ.get('PORT', 80), debug=False)
