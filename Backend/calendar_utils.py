@@ -1,5 +1,4 @@
 from calendar_import import ics_to_dict
-from calendar_utils import 
 from ics import Calendar
 from datetime import datetime, timedelta
 import calendar
@@ -76,8 +75,8 @@ if __name__ == '__main__':
     #pretty_print_schedule(initial_student_schedule)
 
     # Example usage
-    student_schedule = Calendar(student_text)
-    events_schedule = Calendar(events_text)
+    student_schedule = parse_text(student_text)
+    events_schedule = parse_text(events_text)
     #events_schedule = Calendar(events_text)
 
     non_conflicting_events = find_non_conflicting_events(student_schedule, events_schedule)

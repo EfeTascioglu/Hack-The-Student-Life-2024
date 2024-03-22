@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template, redirect, url_for
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
 from ics import Calendar
-from calendar_utils import load_ics_file, find_non_conflicting_events
+from calendar_utils import load_ics_file, find_non_conflicting_events, parse_text
 import base64
 import os
 from openai import OpenAI
@@ -15,7 +15,9 @@ def fetch_credentials(dir='C:/Users/Efe/.openAI'):
         secret_key = lines[2].split('=')[1].strip()
         return secret_key
 
-client = OpenAI(api_key=fetch_credentials())
+DEBUG = True
+client = None
+#client = OpenAI(api_key=fetch_credentials(dir='C:/Users/ajwm8/.openAI' if DEBUG else 'C:/Users/Efe/.openAI'))
 # Try to use GPT3.5-Turbo, then Baggage and Ada (which are about 4 times cheaper)
  # PUT YOUR OWN KEY HERE
 
@@ -63,12 +65,18 @@ def find_events():
         filepath = os.path.join('tmp', filename)  # Temporary save location
         file.save(filepath)
 
-        with open(filepath, 'r') as f:
-            calendar_content = f.read()
-        calendar = Calendar(calendar_content)
+        student_text = load_ics_file(filepath)
+
+        events_text = load_ics_file('static/events/events_calendar.ics')
+        
+        student_schedule = parse_text(student_text)
+        events_schedule = parse_text(events_text)
+        non_conflicting_events = find_non_conflicting_events(student_schedule, events_schedule)
+        print(non_conflicting_events)
         
         # Process the calendar and interests to get a list of events
-        events = process_calendar_and_interests(calendar, interests)
+        #events = process_calendar_and_interests(calendar, interests)
+        events = ["Event 1", "Event 2", "Event 3"]
         # Now pass the list of events to another template (e.g., events.html)
 
         return render_template('index.html', events=events)
