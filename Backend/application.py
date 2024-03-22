@@ -15,9 +15,9 @@ def fetch_credentials(dir='C:/Users/Efe/.openAI'):
         secret_key = lines[2].split('=')[1].strip()
         return secret_key
 
-DEBUG = True
-client = None
-#client = OpenAI(api_key=fetch_credentials(dir='C:/Users/ajwm8/.openAI' if DEBUG else 'C:/Users/Efe/.openAI'))
+DEBUG = False
+#client = None
+client = OpenAI(api_key=fetch_credentials(dir='C:/Users/ajwm8/.openAI' if DEBUG else 'C:/Users/Efe/.openAI'))
 # Try to use GPT3.5-Turbo, then Baggage and Ada (which are about 4 times cheaper)
  # PUT YOUR OWN KEY HERE
 
@@ -33,10 +33,12 @@ CORS(application)
 
 def find_activities_that_are_relevant(events, interests):
     prompt = "A student has a list of interests and wants a list of events that are relevant to them. Take the following interests:\n" + str(interests) + "\nAnd the following list of events:\n" + str(events) + "\nReturn the indices of events that are most relevant to the student's interests as a comma seperated list. Do not return anything else. Do not explain your work. Return example: 0, 4, 6, 9"
-    prompt = prompt.split(",")
-    for i in range(len(prompt)):
-        prompt[i] = int(prompt[i].strip())
-    return request_chat_gpt(prompt)
+    return_val = request_chat_gpt(prompt)
+    print(return_val)
+    return_val = return_val.split(",")
+    for i in range(len(return_val)):
+        return_val[i] = int(return_val[i].strip())
+    return return_val
 
 @application.route('/')
 def home():
@@ -77,19 +79,22 @@ def find_events():
         events = [event.name for event in non_conflicting_events]
 
         # ChatGPT
-        comma_sep_list = find_activities_that_are_relevant(events, interests)
+        event_indices = find_activities_that_are_relevant(events, interests)
 
-        print('testing', comma_sep_list)
+        print('testing', event_indices)
 
-        parsed = comma_sep_list.split(',')
+        events_out = []
+        for i, event in enumerate(events):
+            if i in event_indices:
+                events_out.append(event)
 
-        print(parsed)
+        events = events_out
         
         # Process the calendar and interests to get a list of events
         #events = process_calendar_and_interests(calendar, interests)
         # Now pass the list of events to another template (e.g., events.html)
 
-        return render_template('index.html', events=parsed)
+        return render_template('index.html', events=events)
     return redirect(url_for('home'))
 
 @application.route('/api/ping_post', methods=['POST'])
