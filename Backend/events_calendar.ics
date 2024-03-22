@@ -1,0 +1,1119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Springshare//LibCal//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tri-campus workshops
+X-WR-CALDESC:Workshops offered at the University of Toronto Libraries. Use 
+ the filters below to discover offerings by category and campus.
+X-WR-TIMEZONE:America/Toronto
+X-PUBLISHED-TTL:PT15M
+BEGIN:VEVENT
+DTSTART:20240222T153000Z
+DTEND:20240222T170000Z
+DTSTAMP:20240222T000000Z
+SUMMARY:R: A Gentle Introduction for Beginners
+DESCRIPTION:Interested in learning R? Need to learn R for your research or 
+ for job prospects? R is a popular open-source statistical programming 
+ language that is popular in academia and industry. This workshop provides 
+ an easy entry into the data science field. Get started with learning R with 
+ this gentle hands-on workshop. You will learn how to import\, explore and 
+ manipulate data using R in RStudio.\n\nNo coding experience required! No 
+ math or statistics theory required or covered!
+LOCATION:St. George (Downtown) Campus
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Data & Statistics, Digital Tools, Programming & Software
+UID:LibCal-2020-3786797
+URL:https://libcal.library.utoronto.ca/event/3786797
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240222T180000Z
+DTEND:20240222T200000Z
+DTSTAMP:20240222T000000Z
+SUMMARY:Student Journal Forum 2024
+DESCRIPTION:Now in its 9th year\, this Canada-wide online event is open to 
+ everyone but is targeted at post-secondary students in Canada who are 
+ involved with or considering starting a student journal.\n\nVisit the 
+ Student Journal Forum 2024 website for additional details.\n\nLogin details 
+ will be sent to registered attendees. Please note that the same Zoom link 
+ will be used for all days of the Forum. You are welcome to join using the 
+ link provided as your schedule permits throughout the Forum from February 
+ 20-22\, 2024.\n\n\nIn 2024\, the SJF will occur online and is jointly 
+ organized by individuals from Algoma University's Arthur A. Wishart 
+ Library\, Carleton University MacOdrum Library\, Concordia University of 
+ Edmonton Library\, Mount Royal University Library\, Public Knowledge 
+ Project\, Simon Fraser University Library\, University of Toronto 
+ Libraries\, University of Windsor\, and Western University Libraries.\n
+ORGANIZER;CN="Scholarly Communications & Copyright Office":MAILTO:scholarly.communications@library.utoronto.ca
+CATEGORIES:Scholarly Publishing
+UID:LibCal-2020-3782234
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/sjf2024
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240222T191000Z
+DTEND:20240222T200000Z
+DTSTAMP:20240222T000000Z
+SUMMARY:Podcasts: The Basics (online)
+DESCRIPTION:This introductory workshop will introduce you to the tools and 
+ resources related to podcasts. You will learn about best practices for 
+ creating a podcast\, including choosing a format\, comparing recording 
+ software and selecting the proper equipment needed to complete your audio 
+ project.\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3773786
+URL:https://libcal.library.utoronto.ca/event/3773786
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240222T230000Z
+DTEND:20240223T003000Z
+DTSTAMP:20240222T000000Z
+SUMMARY:Fisher Library Workshop: Medieval Manuscripts
+DESCRIPTION:This workshop will introduce the key elements in the production 
+ and use of Western medieval manuscripts. While focused on Europe\, it will 
+ situate Western manuscripts within a global context. The workshop will be 
+ led by Timothy Perry\, the Fisher Library's Medieval Manuscripts and Early 
+ Books Librarian. All welcome!
+LOCATION:Thomas Fisher Rare Book Library\, St. George (Downtown) Campus
+ORGANIZER;CN="David Fernández":MAILTO:david.fernandez@utoronto.ca
+CATEGORIES:Rare Books & Special Collections
+UID:LibCal-2020-3787494
+URL:https://libcal.library.utoronto.ca/event/3787494
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240223T180000Z
+DTEND:20240223T200000Z
+DTSTAMP:20240223T000000Z
+SUMMARY:Digital Storytelling with ArcGIS Online and StoryMaps
+DESCRIPTION:This workshop provides a quick start to get you up and running 
+ using Esri's ArcGIS Online platform to create and share spatially aware\, 
+ web-based digital narratives.\n\nFirst\, you'll gain familiarity with the 
+ web mapping functionality of ArcGIS Online by creating an interactive web 
+ map using open data. Then we'll take a look at how this web map can be 
+ combined with other multimedia elements to create a visually compelling\, 
+ informative Story Map. In this way\, you'll learn how to effectively share 
+ your research using geographic data and digital 
+ storytelling.\n\nIntroductory level\; no previous experience with coding\, 
+ statistical analysis\, or Geographic Information Systems (GIS) is required.
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Maps & GIS
+UID:LibCal-2020-3782873
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/arcgisonline_storymaps
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240227T153000Z
+DTEND:20240227T170000Z
+DTSTAMP:20240227T000000Z
+SUMMARY:Stata: A Gentle Introduction for Beginners
+DESCRIPTION:Interested in learning Stata? Need to use Stata for your 
+ research or for job prospects? Stata is a data science software that is 
+ commonly used in academia and in research organizations. Get started 
+ learning Stata with this gentle hands-on workshop. You will learn how to 
+ import\, explore and manipulate data using Stata.  \n\nNo coding experience 
+ required! No math or statistics theory required or covered!
+LOCATION:St. George (Downtown) Campus
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Data & Statistics, Digital Tools, Programming & Software
+UID:LibCal-2020-3786808
+URL:https://libcal.library.utoronto.ca/event/3786808
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240227T193000Z
+DTEND:20240227T200000Z
+DTSTAMP:20240227T000000Z
+SUMMARY:Makerspace Stressbusters: Book binding (in-person)
+DESCRIPTION:This stress-free workshop will introduce you to a simple book 
+ binding technique. All materials provided. \n\nLocation: UTSC LIbrary - 
+ Makerspace - AC256\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n 
+ \n\n\n\n
+LOCATION:UTSC Library Makerspace (AC256)\, UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Digital Tools
+UID:LibCal-2020-3773787
+URL:https://libcal.library.utoronto.ca/event/3773787
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240228T190000Z
+DTEND:20240228T200000Z
+DTSTAMP:20240228T000000Z
+SUMMARY:3D Printing Safety Training - Information Commons
+DESCRIPTION:Learn how to safely operate the LulzBot TAZ 6 3D printers. You 
+ must complete this safety training session before you can use our 3D 
+ printers.\n\nThe event will be held in the Digital Studio on the south side 
+ of the first floor of Robarts Library.
+LOCATION:Robarts Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Information Commons":MAILTO:digital.studio@utoronto.ca
+CATEGORIES:3D Printing
+UID:LibCal-2020-3774680
+URL:https://libcal.library.utoronto.ca/event/3774680
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240228T191000Z
+DTEND:20240228T200000Z
+DTSTAMP:20240228T000000Z
+SUMMARY:Podcasts: Beyond the Basics (online)
+DESCRIPTION:During this session\, we'll go beyond the fundamentals of 
+ podcast creation. You'll gain insights into mastering\, podcast 
+ directories\, and RSS feeds. Additionally\, there will be a practical 
+ exercise involving the editing of an audio file using Audacity. To actively 
+ participate in this hands-on activity\, make sure to download the free 
+ program beforehand.
+LOCATION:UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3773788
+URL:https://libcal.library.utoronto.ca/event/3773788
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240229T151000Z
+DTEND:20240229T170000Z
+DTSTAMP:20240229T000000Z
+SUMMARY:Introduction to Research Data Management
+DESCRIPTION:Managing research data is a key component of any research 
+ project\, and - when done right - can save you time and effort. In this 
+ session\, participants will learn about current requirements and best 
+ practices for managing research data at all stages of a research project. 
+ Topics covered include:\n\n\n	Journal and funder requirements\n	Data 
+ management planning\n	Organizing research data\n	Securing research 
+ data\n	Data retention and preservation\n	Data sharing \n\n\nA link to join 
+ the event online will be sent to registrants.\n\nMap & Data Library 
+ workshops\, such as this one\, are a welcoming and inclusive environment 
+ for learning. To learn more\, check out our Code of Conduct.
+LOCATION:St. George (Downtown) Campus
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Data & Statistics, Digital Tools
+UID:LibCal-2020-3780786
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/IntroRDMFeb2024
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240229T180000Z
+DTEND:20240229T200000Z
+DTSTAMP:20240229T000000Z
+SUMMARY:Hustle-Free: Get Your Game Face On
+DESCRIPTION:Don’t hate the player\, hate the game (but we hope you 
+ don’t).\n\nBring your friends and make new ones as you bond with other 
+ students in a relaxed space. Along with some popular games at U of T 
+ Libraries\, Student group Pair-A-Dice gaming will also be present and will 
+ showcase their exciting collection of games for you to interact with such 
+ as Coup\, Caracassone\, Wingspan\, Secret Hitler\, Love Letter\, Werewolf\, 
+ Anomia and Calico\, \n\nTake a break\, leave your hustle behind and join in 
+ on the fun!\n\nDate: Thursday\, 29th February\, 2024\n\nTime: 12 PM - 
+ 2PM\n\nLocation: Engineering and Computer Science Library \n\n \n\n \n\n
+LOCATION:Engineering Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Teaching & Engagement Unit":MAILTO:information.literacy@utoronto.ca
+CATEGORIES:Health & Wellness
+UID:LibCal-2020-3784723
+URL:https://libcal.library.utoronto.ca/event/3784723
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240229T190000Z
+DTEND:20240229T210000Z
+DTSTAMP:20240229T000000Z
+SUMMARY:Networking for Community Building
+DESCRIPTION:Networking has the power to act as a catalyst for fostering 
+ strong\, resilient and supportive communities\, helping you make genuine 
+ connections. At the same time\, it is an art that can help you share 
+ knowledge with those in your field\, understand your value\, increase your 
+ visibility\, and help you to see where you fit within a system.\n\nPlease 
+ join us on February 29th\, 2:00 - 4:00 pm at the Catalyst Center to hear 
+ members of Roundtable Records\, Anthony Gebrehiwot (XvXy Photo)\, Chris 
+ Wilson (It’s OK Studios)\, and Elle de Lyon (R.I.S.E Edutainment) 
+ participate in a panel discussion focused on networking for community 
+ building. Learn how to build connections in a mutually beneficial\, 
+ non-transactional way\, to help get closer to your personal and 
+ professional goals.  By connecting to others\, you can find inspiration in 
+ new perspectives not previously considered\, and build opportunities that 
+ benefit not only you\, but those around you. \n\nOur panelists will share 
+ their numerous experiences and strategies for networking for community or 
+ project gains. Their firsthand accounts will help you to understand: 
+ \n\n\n	the benefits of networking for personal and community growth \n	the 
+ importance of non-transactional relationship building for holistic benefits 
+ \n	how partnerships resulting from networking have the power to transform 
+ and amplify your impact \n\n\nFacilitators: \n\nPaulina Rousseau\, Liaison 
+ Librarian\, ACM\, UTSC\n\nMariana Jardim\, Liaison Librarian\, Management\, 
+ Entrepreneurship & Coop\, UTSC\n\nLocation: Catalyst Centre EV151/152\n\n 
+ \n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC (see description for exact location)\, UTSC
+ORGANIZER;CN="UTSC Library":MAILTO:libcomm.utsc@utoronto.ca
+CATEGORIES:Business & Entrepreneurship, Co-Curricular Record
+UID:LibCal-2020-3786955
+URL:https://libcal.library.utoronto.ca/event/3786955
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240229T191000Z
+DTEND:20240229T200000Z
+DTSTAMP:20240229T000000Z
+SUMMARY:Microcontrollers: Beyond the Basics (in-person)
+DESCRIPTION:This hands-on session will move beyond creating basic circuits. 
+ We will work with various sensors and other signal types. It is recommended 
+ that you attend the “Introduction to Microcontrollers” workshop 
+ beforehand or have a basic understanding of circuits and microcontrollers. 
+ We have a limited number of kits so you may be working with a 
+ partner.\n\nLocation: UTSC Library - Makerspace AC256
+LOCATION:UTSC (see description for exact location)\, UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3773785
+URL:https://libcal.library.utoronto.ca/event/3773785
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240305T150000Z
+DTEND:20240305T170000Z
+DTSTAMP:20240305T000000Z
+SUMMARY:Getting Started with Intermediate R
+DESCRIPTION:Do you want to develop your R skills to advance your data 
+ science skills? R is a popular open-source statistical programming language 
+ that is popular in academia and industry. This workshop gently introduces 
+ users to intermediate level tools in R including the dplyr package for data 
+ manipulation\, if statements\, for loops and functions. It is suitable for 
+ users who have had some introduction to R.\n\nNo math or statistics theory 
+ required or covered!
+LOCATION:St. George (Downtown) Campus
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Data & Statistics, Digital Tools, Programming & Software
+UID:LibCal-2020-3786806
+URL:https://libcal.library.utoronto.ca/event/3786806
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240305T180000Z
+DTEND:20240305T190000Z
+DTSTAMP:20240305T000000Z
+SUMMARY:Gerstein   MADLab 3D Printing Safety Training
+DESCRIPTION:\nThis session introduces tools\, techniques and best practices 
+ of 3D printing\, including the basics of 3D printing\, an introduction to 
+ the MADLab space\, and the models of 3D printers available for use. 
+ Instructors will demonstrate how to safely use the service and the machines 
+ from start to finish\, as well as how to find and prepare 3d models and 
+ software.  \n\nNote: Taking this workshop is the first step to becoming 
+ certified to use the Gerstein   MADLab 3D printing service. To complete 
+ certification you must also pass a knowledge quiz and sign a safety waiver. 
+ Please visit the Gerstein website for more information about accessing the 
+ service.\n\nAttendees will learn:\n\n\n	How the 3D printers work and how to 
+ use them safely \n	Where to find appropriate 3D design models and upload 
+ them to the printer \n	Tips and tricks for printing successfully 
+ \n	Policies for using the space and booking the printer \n	Where to find 
+ resources and help \n\n\nWhere: MADLab\, 1 Below\, Gerstein Science 
+ Information Centre \nWhen: Tuesday March 5th 1-2p.m. ET\nInstructors: TBA\n
+LOCATION:Gerstein Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Ask Gerstein!":MAILTO:ask.gerstein@utoronto.ca
+CATEGORIES:3D Printing
+UID:LibCal-2020-3777914
+URL:https://libcal.library.utoronto.ca/event/3777914
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240306T160000Z
+DTEND:20240306T170000Z
+DTSTAMP:20240306T000000Z
+SUMMARY:Redefining the "F-word" (Failure\, not the other one) with Elina Chow & Matthew Fuller
+DESCRIPTION:Join us for an intimate fireside chat with UTSC’s 
+ Entrepreneur in Residence Elina Chow (BBA 2004) and Executive Coach Matthew 
+ Fuller\, as they lead a candid exploration of the “F word” in 
+ entrepreneurship – Failure\, not the other one. Elina Chow\, founder of 
+ Jot Tech and Matthew Fuller\, a skilled facilitator\, will bring 
+ practical\, lived experience to the conversation\, offering insights to 
+ help anyone looking to bounce back from a failure.\n\nLocation: Catalyst 
+ Center\n\n \n\nSpeakers \n\n \n\nElina Chow\n\n\n\n\n\nElina Chow-Clark is 
+ an Alumna of UTSC and the Entrepreneur-in-Residence for this academic year. 
+ She is an entrepreneur with 18  years of experience working with private 
+ and publicly-traded companies in Healthcare\, Tech and the Metals and 
+ Mining industry. \n\nElina specializes in stakeholder relations\, corporate 
+ strategies\, and marketing. As a former consultant and senior executive\, 
+ she has played key roles in helping companies go public and achieve 
+ successful exits\n\nAs an active member of UTSC's alumni network\, Elina is 
+ a donor and supporter of two incubators at the Scarborough Campus\, The 
+ BRIDGE and The Hub.\n\n\n\nMatthew Fuller\n\n\n\n\nMatthew Fuller is deeply 
+ committed to unlocking the full potential of individuals and organisations. 
+ As a trained life and executive coach with a genuine passion for empowering 
+ others\, Matthew is forging a remarkable career dedicated to guiding 
+ individuals and teams towards their goals and aspirations. \n\nDrawing upon 
+ well-established techniques supported by scientific research\, Matthew 
+ places great emphasis on the holistic nature of the human experience and 
+ its profound impact on our success\, particularly during times of 
+ uncertainty. \n\nWith his expertise and unique coaching approach\, Matthew 
+ has served as a catalyst for transformation in the lives of countless 
+ clients worldwide. His guidance has enabled them to navigate challenges\, 
+ embrace growth\, and effect positive changes in both their personal and 
+ professional domains. \n\nMatthew's professionalism and relatable 
+ down-to-earth demeanor\, lends itself to connection with individuals across 
+ all industries. With speaking engagements with UTSC's The Hub and BBC Radio 
+ London\, Matthew speaks to transformation at its core\, helping all seeking 
+ to unleash their true potential. \n\n
+LOCATION:UTSC (see description for exact location)\, UTSC
+ORGANIZER;CN="The BRIDGE UTSC":MAILTO:thebridge@utsc.utoronto.ca
+CATEGORIES:Business & Entrepreneurship
+UID:LibCal-2020-3776593
+URL:https://libcal.library.utoronto.ca/event/3776593
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240306T170000Z
+DTEND:20240306T180000Z
+DTSTAMP:20240306T000000Z
+SUMMARY:Understanding Your Researcher Identity
+DESCRIPTION:Everyone who publishes their research develops an researcher 
+ identity.\n\nDo you know how your researcher identity is described 
+ online?\n\nHave you ever wondered how you can control aspects of your 
+ researcher identity?\n\nJoin us March 6 at noon for a discussion on how 
+ researcher identity can be understood within the scholarly publishing 
+ landscape and what that might mean for you as a graduate student looking to 
+ expand the visibility of your research. \n\nThis in-person conversation 
+ will occur concurrently across the St. George\, UTM\, and UTSC campuses. U 
+ of T graduate students from any discipline interested in chatting about 
+ this topic are invited to attend.\n\nPizza available at each location!
+LOCATION:Gerstein Library\, UTM Library\, UTSC (see description for exact location)
+ORGANIZER;CN="University of Toronto Libraries":MAILTO:acl.sciences@library.utoronto.ca
+CATEGORIES:Scholarly Publishing
+UID:LibCal-2020-3783840
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/researcher-identity
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240306T180000Z
+DTEND:20240306T200000Z
+DTSTAMP:20240306T000000Z
+SUMMARY:Introduction to Open Educational Resources
+DESCRIPTION:Are you curious about finding teaching materials to support 
+ student learning? Or perhaps you are interested in developing teaching 
+ materials that all students can access? Celebrate Open Education Week and 
+ learn how Open Educational Resources (OER) can be optimized for 
+ instructional use in this interactive workshop. OER reduces the financial 
+ barrier to access materials for students while also strengthening student 
+ engagement and learning. You will be introduced to what OER is in 
+ comparison to other ‘free’ materials\, unpack the meaning of Creative 
+ Commons licensing when using OER\, practice attributing open resources like 
+ images\, find and assess OER that you can use in your teaching\, and last 
+ discuss how you can contribute to the OER community. \n\nBy the end of the 
+ session you will: \n\ndefine open educational resources (OER) \nidentify 
+ the different types of Creative Commons licenses and what each allows/does 
+ not allow for the use of an OER \ncorrectly attribute open resource such as 
+ images that may be used in presentations \nlocate OER including open 
+ textbooks\, lab/activity materials\, lesson plans\, lectures\, and more 
+ \ndiscuss the challenges and benefits of using OER in your teaching  
+ \nassess how you will use OER in your own teaching such as adopt\, adapt\, 
+ create\, and contribute  \n\nFacilitator: David Kwasny - Data and Digital 
+ Literacy Librarian - Digital Scholarship Unit\n\n
+LOCATION:UTSC
+ORGANIZER;CN="UTSC Library\, Digital Scholarship Unit":MAILTO:digitalscholarship@utsc.utoronto.ca
+CATEGORIES:Digital Tools
+UID:LibCal-2020-3788349
+URL:https://libcal.library.utoronto.ca/event/3788349
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240306T191000Z
+DTEND:20240306T200000Z
+DTSTAMP:20240306T000000Z
+SUMMARY:Introduction to 3D Design (in-person)
+DESCRIPTION:This hands-on session introduces you to 3D design using 
+ Tinkercad\, a free design platform that is ideal for beginners. At the end 
+ of the workshop\, you will have created a basic object that is ready to be 
+ 3D printed. You are welcomed to use your own laptop.\n\nLocation: UTSC 
+ Library Makerspace - AC256
+LOCATION:UTSC (see description for exact location)\, UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:3D Printing, Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786651
+URL:https://libcal.library.utoronto.ca/event/3786651
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240307T160000Z
+DTEND:20240307T170000Z
+DTSTAMP:20240307T000000Z
+SUMMARY:GGPLOT2: A Gentle Introduction using R in RStudio
+DESCRIPTION:GGPLOT2 is a popular R package that is used to make publishing 
+ quality graphs. This workshop gently introduces users to ggplot2 functions 
+ in RStudio to make beautiful graphs.\n\nNo math or statistics theory 
+ required or covered! Data cleaning and data preparation in R is not covered 
+ in this workshop.
+LOCATION:St. George (Downtown) Campus
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Data & Statistics, Digital Tools, Programming & Software
+UID:LibCal-2020-3786809
+URL:https://libcal.library.utoronto.ca/event/3786809
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240308T180000Z
+DTEND:20240308T200000Z
+DTSTAMP:20240308T000000Z
+SUMMARY:Introduction to Prompt Engineering for Information Literacy
+DESCRIPTION:In this workshop participants will participate in discussions 
+ and activities in order to more effectively prompt generative AI tools\, 
+ such as Chat-GPT\, to acquire results that more accurately represent their 
+ desired outcomes. This workshop is focused on the use of generative AI in a 
+ flipped classroom approach. Participants will gain understanding of their 
+ research topics through the use of AI\, and then utilizing library 
+ resources to fact check the content and improve and refine their research 
+ questions. \n\nObjectives: \nLearners will gain hands-on experience in 
+ crafting effective prompts for interacting with Generative Artificial 
+ Intelligence (GPT-3 or similar models)\nLearners will understand the 
+ importance of prompt engineering in obtaining desired and meaningful 
+ responses.\nLearners will validate the information they are provided by the 
+ Generative Artificial Intelligence by using Library resources\nLearners 
+ will assess their findings and share their result.\n\nFacilitator: David 
+ Kwasny\, Data and Digital Literacy Librarian - Digital Scholarship Unit
+LOCATION:UTSC
+ORGANIZER;CN="UTSC Library\, Digital Scholarship Unit":MAILTO:digitalscholarship@utsc.utoronto.ca
+CATEGORIES:Digital Tools
+UID:LibCal-2020-3788352
+URL:https://libcal.library.utoronto.ca/event/3788352
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240313T180000Z
+DTEND:20240313T190000Z
+DTSTAMP:20240313T000000Z
+SUMMARY:3D Printing Safety Training - Information Commons
+DESCRIPTION:Learn how to safely operate the LulzBot TAZ 6 3D printers. You 
+ must complete this safety training session before you can use our 3D 
+ printers.\n\nThe event will be held in the Digital Studio on the south side 
+ of the first floor of Robarts Library.
+LOCATION:Robarts Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Information Commons":MAILTO:digital.studio@utoronto.ca
+CATEGORIES:3D Printing
+UID:LibCal-2020-3774681
+URL:https://libcal.library.utoronto.ca/event/3774681
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240313T181000Z
+DTEND:20240313T190000Z
+DTSTAMP:20240313T000000Z
+SUMMARY:Microcontrollers: The Basics (in-person)
+DESCRIPTION:This hands-on session will introduce you to the basics of 
+ microcontrollers. At the end of the workshop\, you will have a general 
+ understanding of circuitry and how to create a simple circuit. We have a 
+ limited number of kits so you may be working with a partner.\n\nLocation: 
+ UTSC Library - Makerspace AC256\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n 
+ \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC (see description for exact location)\, UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786660
+URL:https://libcal.library.utoronto.ca/event/3786660
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240314T180000Z
+DTEND:20240314T200000Z
+DTSTAMP:20240314T000000Z
+SUMMARY:Getting Started with Intermediate R
+DESCRIPTION:Do you want to develop your R skills to advance your data 
+ science skills? R is a popular open-source statistical programming language 
+ that is popular in academia and industry. This workshop gently introduces 
+ users to intermediate level tools in R including the dplyr package for data 
+ manipulation\, if statements\, for loops and functions. It is suitable for 
+ users who have had some introduction to R.\n\nNo math or statistics theory 
+ required or covered!
+LOCATION:St. George (Downtown) Campus
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Data & Statistics, Digital Tools, Programming & Software
+UID:LibCal-2020-3786807
+URL:https://libcal.library.utoronto.ca/event/3786807
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240315T160000Z
+DTEND:20240315T180000Z
+DTSTAMP:20240315T000000Z
+SUMMARY:Introduction to Spatial Analysis with ArcGIS Online
+DESCRIPTION:In this workshop\, you will learn the basics of Geographic 
+ Information Systems (GIS) and how to use ArcGIS Online\, a web-based 
+ platform that allows you to create\, share\, and analyze maps and data. You 
+ will use open data and geoprocessing tools to perform spatial analysis and 
+ develop workflows to address real-world problems.\n\nYou will also learn 
+ how to design your analyses in a thoughtful way\, by considering what data 
+ and techniques are appropriate for your problem\, how to evaluate the 
+ quality and accuracy of your data and results\, and how to communicate your 
+ findings effectively.\n\nBy the end of this workshop\, you will be able 
+ to:\n\n\n	Understand the concepts and applications of GIS\n	Navigate the 
+ ArcGIS Online interface and access its resources\n	Find\, add\, and 
+ visualize spatial data on a web map\n	Apply geoprocessing and analysis 
+ tools to perform spatial operations\n	Interpret and communicate the results 
+ of your analysis\n	Design your analysis with data and techniques that suit 
+ your problem\n\n\nNo prior experience or software installation is required.
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Digital Tools, Maps & GIS
+UID:LibCal-2020-3789556
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/spatial-analysis-arcgis-online
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240319T170000Z
+DTEND:20240319T180000Z
+DTSTAMP:20240319T000000Z
+SUMMARY:Gerstein   MADLab 3D Printing Safety Training
+DESCRIPTION:\nThis session introduces tools\, techniques and best practices 
+ of 3D printing\, including the basics of 3D printing\, an introduction to 
+ the MADLab space\, and the models of 3D printers available for use. 
+ Instructors will demonstrate how to safely use the service and the machines 
+ from start to finish\, as well as how to find and prepare 3d models and 
+ software.  \n\nNote: Taking this workshop is the first step to becoming 
+ certified to use the Gerstein   MADLab 3D printing service. To complete 
+ certification you must also pass a knowledge quiz and sign a safety waiver. 
+ Please visit the Gerstein website for more information about accessing the 
+ service.\n\nAttendees will learn:\n\n\n	How the 3D printers work and how to 
+ use them safely \n	Where to find appropriate 3D design models and upload 
+ them to the printer \n	Tips and tricks for printing successfully 
+ \n	Policies for using the space and booking the printer \n	Where to find 
+ resources and help \n\n\nWhere: MADLab\, 1 Below\, Gerstein Science 
+ Information Centre \nWhen: Tuesday March 19th 1-2pm. ET\nInstructors: TBA\n
+LOCATION:Gerstein Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Ask Gerstein!":MAILTO:ask.gerstein@utoronto.ca
+CATEGORIES:3D Printing
+UID:LibCal-2020-3777916
+URL:https://libcal.library.utoronto.ca/event/3777916
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240319T171000Z
+DTEND:20240319T190000Z
+DTSTAMP:20240319T000000Z
+SUMMARY:Data Deposit and Sharing
+DESCRIPTION:Are you working on a research project\, but aren’t sure what 
+ to do with your data once it’s complete? Has a funder or journal asked 
+ you to deposit your research data in a repository? Do you want to preserve 
+ your data\, or make it available for others to reuse?\n\nIn this session 
+ participants will learn about the concepts\, considerations\, and best 
+ practices related to data deposit and sharing. Topics covered include: 
+ \n\n\n	Why researchers deposit and/or share their research data\n	Journal 
+ and funder requirements\n	Preparing research data for deposit\n	Data 
+ repositories\n\n\nThis session includes a brief introduction to U of T 
+ Dataverse\, the University of Toronto's institutional data repository. 
+ However if you are looking for a more comprehensive overview we recommend 
+ registering for Depositing Research Data in U of T Dataverse.\n\nNo 
+ prerequisites or prior knowledge required.\n\nMap & Data Library 
+ workshops\, such as this one\, are a welcoming and inclusive environment 
+ for learning. To learn more\, check out our Code of Conduct.\n\nA link to 
+ join the event online will be sent to registrants.
+LOCATION:St. George (Downtown) Campus
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Data & Statistics, Digital Tools
+UID:LibCal-2020-3782461
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/datadeposit
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240320T181000Z
+DTEND:20240320T190000Z
+DTSTAMP:20240320T000000Z
+SUMMARY:Microcontrollers: Beyond the Basics (in-person)
+DESCRIPTION:This hands-on session will move beyond creating basic circuits. 
+ We will work with various sensors and other signal types. It is recommended 
+ that you attend the “Introduction to Microcontrollers” workshop 
+ beforehand or have a basic understanding of circuits and microcontrollers. 
+ We have a limited number of kits so you may be working with a 
+ partner.\n\nLocation: UTSC Library - Makerspace 
+ AC256\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC (see description for exact location)\, UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786665
+URL:https://libcal.library.utoronto.ca/event/3786665
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240321T181000Z
+DTEND:20240321T190000Z
+DTSTAMP:20240321T000000Z
+SUMMARY:Podcasts: The Basics (online)
+DESCRIPTION:This introductory workshop will introduce you to the tools and 
+ resources related to podcasts. You will learn about best practices for 
+ creating a podcast\, including choosing a format\, comparing recording 
+ software and selecting the proper equipment needed to complete your audio 
+ project.\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786670
+URL:https://libcal.library.utoronto.ca/event/3786670
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240321T220000Z
+DTEND:20240321T233000Z
+DTSTAMP:20240321T000000Z
+SUMMARY:Fisher Library Workshop: Artists' Books
+DESCRIPTION:At their simplest\, artists' books are an art form that uses 
+ the book as the medium of artistic expression. This workshop will examine 
+ the history of artists' books by looking at both contemporary and 
+ historical examples\, along with exploring book structures that will test 
+ one's precept of what a book is.\n\nIt will be led by John Shoesmith\, the 
+ Fisher Library's Outreach Librarian.\n\nAll are welcome.
+LOCATION:Thomas Fisher Rare Book Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Fisher Library":MAILTO:fisher.library@utoronto.ca
+CATEGORIES:Rare Books & Special Collections
+UID:LibCal-2020-3792436
+URL:https://libcal.library.utoronto.ca/event/3792436
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240326T191000Z
+DTEND:20240326T210000Z
+DTSTAMP:20240326T000000Z
+SUMMARY:Create an Immersive “Streetview” App – for Beginners
+DESCRIPTION:Have you ever wanted to make your own cross-platform mobile 
+ app? Or maybe you have an idea for a choose-your-own-adventure game? This 
+ beginner-friendly app development workshop will teach you the skills to do 
+ so with 360 panoramic images and Unity\, a popular free-to-use\, 
+ cross-platform game engine. \n\nBy the end of this workshop\, you will have 
+ a general familiarity with the Unity development environment\, understand 
+ how to create functional UI elements in a 3D environment\, and you’ll 
+ have an immersive streetview app project to take home and work on! \n\nWe 
+ invite you to contact mad.lab@utoronto.ca if you have any questions about 
+ this event!\n\n\n\nRequirements\n\nNo coding experience required. You do 
+ not need to purchase any software.\n\nA Mac or Windows laptop is 
+ recommended\, but a limited number of laptops will be available to borrow 
+ for the workshop\, please contact mad.lab@utoronto.ca if you are interested 
+ in borrowing our equipment.\n\nInstructions for tools installation will be 
+ sent to registrants prior to the workshop.\n\n\n
+LOCATION:Gerstein Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Gerstein 3D Printing":MAILTO:gerstein.3dprinting@utoronto.ca
+CATEGORIES:Programming & Software
+UID:LibCal-2020-3790026
+URL:https://libcal.library.utoronto.ca/event/3790026
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240326T210000Z
+DTEND:20240326T223000Z
+DTSTAMP:20240326T000000Z
+SUMMARY:Hustle-Free: U of T's Got Talent
+DESCRIPTION:Both graduate and undergraduate students are welcome to 
+ unwind\, de-stress and leave the hustle behind for a quick break with U of 
+ T Libraries: Hustle-Free. \n\nPick up your dusty instruments\, find that 
+ old notebook with your slam poetry\, give your stand-up comedy a whirl with 
+ an audience. U of T’s Got Talent invites students to an intimate setting 
+ where you flex your talent (or you can come to cheer on and watch talent 
+ unfold before you!). It’s your time to shine. Donuts\, soda and drinks 
+ available (until they run out!) \n\nWhen: Tuesday\, March 26. 5 - 
+ 6:30PM\n\nWhere: Blackburn Room\, 4th Floor\, Robarts Library\n\nEmail us 
+ at library.engagement@utoronto.ca if you’re interested to perform by 
+ March 15th so we can pre-register you.
+LOCATION:Robarts Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Teaching & Engagement Unit":MAILTO:information.literacy@utoronto.ca
+CATEGORIES:Health & Wellness
+UID:LibCal-2020-3779154
+URL:https://libcal.library.utoronto.ca/event/3779154
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240327T180000Z
+DTEND:20240327T190000Z
+DTSTAMP:20240327T000000Z
+SUMMARY:3D Printing Safety Training - Information Commons
+DESCRIPTION:Learn how to safely operate the LulzBot TAZ 6 3D printers. You 
+ must complete this safety training session before you can use our 3D 
+ printers.\n\nThe event will be held in the Digital Studio on the south side 
+ of the first floor of Robarts Library.
+LOCATION:Robarts Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Information Commons":MAILTO:digital.studio@utoronto.ca
+CATEGORIES:3D Printing
+UID:LibCal-2020-3774682
+URL:https://libcal.library.utoronto.ca/event/3774682
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240327T181000Z
+DTEND:20240327T190000Z
+DTSTAMP:20240327T000000Z
+SUMMARY:Podcasts: Beyond the Basics (online)
+DESCRIPTION:During this session\, we'll go beyond the fundamentals of 
+ podcast creation. You'll gain insights into mastering\, podcast 
+ directories\, and RSS feeds. Additionally\, there will be a practical 
+ exercise involving the editing of an audio file using Audacity. To actively 
+ participate in this hands-on activity\, make sure to download the free 
+ program beforehand. \n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n 
+ \n\n\n\n
+LOCATION:UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786671
+URL:https://libcal.library.utoronto.ca/event/3786671
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240328T180000Z
+DTEND:20240328T190000Z
+DTSTAMP:20240328T000000Z
+SUMMARY:AI as Learning Support: Student Panel
+DESCRIPTION:A Working Group on AI from the Library’s Teaching and 
+ Learning Committee has assembled a diverse panel of four undergraduate 
+ students from all three campuses to discuss their use of generative AI for 
+ research and as a support when completing assignments. Since students are 
+ using these tools\, the goal of this panel is to better understand how 
+ they’re employing AI\, which will inform how we support and teach 
+ students. \n\nJoin us online on March 28th from 2-3pm\nAn introduction and 
+ prepared questions will be followed by an opportunity for attendees to pose 
+ questions to the student panel. \nWe'll also share links to relevant 
+ resources.\n\nUniversity of Toronto students\, library staff\, librarians\, 
+ instructors\, faculty\, teaching assistants\, student support staff\, and 
+ other U of T community members are welcome to attend.\n\nPlease note: event 
+ will begin at 2:05pm sharp \n\nStudent Panelists: \n\n\n	Gio: 2nd year at 
+ UTM\, double major in Economics and Political Science   \n	Izzy: 1st year 
+ at UTM\, double major in Chemistry and Philosophy  \n	Sophie: 3rd year at 
+ UTSC Media Studies and Studio Art  \n	Zarif: 1st year at UTSG\, Computer 
+ Science \n\n\nThe AI Working Group of the LTLC\, 2023-2024 is: 
+ \n\n\n	Alexandra Kwan\, Digital Services and Reference\, Librarian Bora 
+ Laskin Law Library \n	Cathryn Copper\, Head\, Eberhard Zeidler Library 
+ \n	David Gerstle\, Research Services and Liaison Librarian\, UTM Library 
+ \n	David Kwasny\, Data & Digital Literacy Librarian\, UTSC Library \n	Diane 
+ Michaud\, Reader Services & Instruction Librarian\, E.J. Pratt Library \n
+ORGANIZER;CN="Diane Michaud":MAILTO:diane.michaud@utoronto.ca
+CATEGORIES:
+UID:LibCal-2020-3791584
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/studentsAIuses
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240328T181000Z
+DTEND:20240328T190000Z
+DTSTAMP:20240328T000000Z
+SUMMARY:Introduction to Cricut (online)
+DESCRIPTION:This online session will introduce you to Design Space\, the 
+ online tool that lets you create Cricut projects. During the interactive 
+ workshop\, you will learn how to browse the Cricut design database or use 
+ program tools to create your own project\, such as stickers or greeting 
+ cards. To participate\, make sure to download the free program 
+ beforehand.\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3789963
+URL:https://libcal.library.utoronto.ca/event/3789963
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240402T170000Z
+DTEND:20240402T183000Z
+DTSTAMP:20240402T000000Z
+SUMMARY:Making Maps with SimplyAnalytics
+DESCRIPTION:SimplyAnalytics is an online tool that allows users to create 
+ maps and reports and provides access to a wide variety of data\, including 
+ demographic\, health\, business\, and marketing data. In this workshop 
+ participants will learn how to create maps and other data visualizations\, 
+ add and manage variables\, create reports\, and export their 
+ work.\n\nLocation: Map and Data Library Computer Lab (Robarts\, 5th floor)
+LOCATION:Map & Data Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Data & Statistics, Digital Tools
+UID:LibCal-2020-3793383
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/SimplyAnalytics
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240403T160000Z
+DTEND:20240403T173000Z
+DTSTAMP:20240403T000000Z
+SUMMARY:Data Resources for Entrepreneurs
+DESCRIPTION:Preparing a business pitch and developing a business idea 
+ requires you to have data on your target market. You need data to inform 
+ decisions on your business plan\, data on your competitors\, and if you 
+ want to be innovative in your industry you need data to tell you a story on 
+ performance and opportunity. Data literacy for entrepreneurs is 
+ essential.\n\nThis session will help you:\n\nidentify your data needs\, and 
+ find relevant data using specialized library resources.\n\nFollowing this 
+ session you will be able to:\n\nDescribe types of data in order to 
+ understand why you need data to inform your business idea.  \nIdentify your 
+ information need and find the data that best addresses your startup 
+ research question. \n\nInstructor: Mariana Jardim\, Liaison 
+ Librarian\n\nDate: Wednesday\, April 3\, 2024\n\nTime: 12:00 PM - 1:30 
+ PM\n\nLocation: Virtual
+ORGANIZER;CN="The BRIDGE UTSC":MAILTO:thebridge@utsc.utoronto.ca
+CATEGORIES:Business & Entrepreneurship, Data & Statistics
+UID:LibCal-2020-3737283
+URL:https://libcal.library.utoronto.ca/event/3737283
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240403T181000Z
+DTEND:20240403T190000Z
+DTSTAMP:20240403T000000Z
+SUMMARY:Introduction to Stop Motion (online)
+DESCRIPTION:Learn the basics for creating a Stop Motion video using the 
+ Stop Motion Studio app and a mobile phone or tablet. At the end of the 
+ workshop\, you will have knowledge of the tools\, software and steps needed 
+ to make a basic Stop Motion video.  The best way to participate in the 
+ session is to download the app on your phone or tablet and follow the 
+ presentation on another device.  \n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n 
+ \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786682
+URL:https://libcal.library.utoronto.ca/event/3786682
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240404T160000Z
+DTEND:20240404T170000Z
+DTSTAMP:20240404T000000Z
+SUMMARY:Launchpad: Campus Resources for U of T Startups
+DESCRIPTION:This is an orientation to campus resources for those with 
+ startups or interested in startups\, including accelerators\, courses and 
+ programs\, library resources\, commercialization\, funding opportunities\, 
+ and community resources.\n\nYou will leave with:\n\n\n	knowledge of how the 
+ university supports student and faculty startups through space\, training\, 
+ and mentorship\n	an understanding of campus accelerators\, pitch 
+ competitions\, and funding opportunities\n	additional library workshops 
+ available to further support and boost your entrepreneurship journey\n	a 
+ guide of where to go to find more information at U of T\, around Toronto\, 
+ and the broader startup ecosystem\n\n\nWhen: Thursday\, April 4 12-1 p.m. 
+ ET\nLocation: Online via Zoom (participants will receive a link prior to 
+ session start)\nInstructor: Catherine MacGregor\, Finance Learning Centre 
+ (FLC) and Liaison Librarian  cat.macgregor@utoronto.ca\n\nThis workshop is 
+ part of an Entrepreneurship Research Skills Co-Curricular Record (CCR) as 
+ recognized by the University of Toronto. They are open to all U of T 
+ students\, faculty\, and staff\, but only current students are eligible to 
+ enroll in the CCR. A valid UTORid is required to access library databases. 
+ Registration is required.\n\n
+ORGANIZER;CN="The BRIDGE UTSC":MAILTO:thebridge@utsc.utoronto.ca
+CATEGORIES:Business & Entrepreneurship
+UID:LibCal-2020-3794740
+URL:https://libcal.library.utoronto.ca/event/3794740
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240404T161000Z
+DTEND:20240404T173000Z
+DTSTAMP:20240404T000000Z
+SUMMARY:Depositing Research Data in U of T Dataverse (Borealis)
+DESCRIPTION:Are you interested in sharing your data with other researchers? 
+ Has a journal or funder asked you to share your data? In this session\, 
+ participants will learn how to organize and publish research data in U of T 
+ Dataverse\, the university of Toronto's institutional data repository 
+ hosted by Borealis. Through a live demo\, participants will learn how to 
+ organize research data for deposit\, upload and publish a dataset\, and add 
+ appropriate metadata.\n\nNo prerequisites or prior knowledge 
+ required.\n\nMap & Data Library workshops\, such as this one\, are a 
+ welcoming and inclusive environment for learning. To learn more\, check out 
+ our Code of Conduct.\n\n \n\nA link to join the event online will be sent 
+ to registrants.\n\n
+LOCATION:St. George (Downtown) Campus
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Data & Statistics, Digital Tools
+UID:LibCal-2020-3780785
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/UofTDataverseApr2024
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240404T181000Z
+DTEND:20240404T190000Z
+DTSTAMP:20240404T000000Z
+SUMMARY:Introduction to 3D Design (in-person)
+DESCRIPTION:This hands-on session introduces you to 3D design using 
+ Tinkercad\, a free design platform that is ideal for beginners. At the end 
+ of the workshop\, you will have created a basic object that is ready to be 
+ 3D printed. You are welcomed to use your own laptop.\n\nLocation: UTSC 
+ Library Makerspace - AC256
+LOCATION:UTSC (see description for exact location)\, UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:3D Printing, Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786686
+URL:https://libcal.library.utoronto.ca/event/3786686
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240405T160000Z
+DTEND:20240405T180000Z
+DTSTAMP:20240405T000000Z
+SUMMARY:Digital Storytelling with ArcGIS Online and StoryMaps
+DESCRIPTION:This workshop provides a quick start to get you up and running 
+ using Esri's ArcGIS Online platform to create and share spatially aware\, 
+ web-based digital narratives.\n\nFirst\, you'll gain familiarity with the 
+ web mapping functionality of ArcGIS Online by creating an interactive web 
+ map using open data. Then we'll take a look at how this web map can be 
+ combined with other multimedia elements to create a visually compelling\, 
+ informative StoryMap. In this way\, you'll learn how to effectively share 
+ your research using geographic data and digital storytelling.\n\nBy the end 
+ of this workshop\, you will be able to:\n\n\n	Create and customize web maps 
+ using ArcGIS Online\n	Choose and configure a Story Map template that suits 
+ your narrative\n	Add text\, images\, videos\, and other media to your Story 
+ Map\n	Share and publish your Story Map online\n	Use spatial data to support 
+ your narrative and create visual impact\n	Apply storytelling principles and 
+ techniques to craft a coherent and engaging digital story\n\n\nIntroductory 
+ level\; no previous experience with coding\, statistical analysis\, or 
+ Geographic Information Systems (GIS) is required.
+ORGANIZER;CN="Map & Data Library":MAILTO:mdl@library.utoronto.ca
+CATEGORIES:Digital Tools, Maps & GIS
+UID:LibCal-2020-3789561
+URL:https://libcal.library.utoronto.ca/calendar/libraryworkshops/digital-storytelling
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240405T170000Z
+DTEND:20240405T190000Z
+DTSTAMP:20240405T000000Z
+SUMMARY:Pen Pals: Letter Writing Event
+DESCRIPTION:Dear U of T students\,  \n\nTake a study break and stop by the 
+ Pen Pals: Letter Writing Event!  \n\nLetter writing is an opportunity to 
+ slow down and connect with others. It can be a creative project or a 
+ practical one\, solo downtime or a chance to socialize\, a quick drop-in or 
+ a generous reset – whatever suits you best!  \n\nWe’ll be providing the 
+ stationery\, snacks\, and coffee shop ambiance. We’ll even mail out your 
+ letter to anywhere in Canada once you’re done!  \n\nSupplies will 
+ include:  \n\n\n	Paper\, pens\, markers\, stickers\, washi tape\, envelopes 
+ \n	Writing prompts and ideas\n	Tea and cookies  \n\n\nWrite to friends\, 
+ family\, classmates - or even try writing an anonymous letter to leave on 
+ campus to brighten a fellow student’s day!  \n\nIf you’re not much of a 
+ letter writer feel free to bring your planner\, journal\, or any other 
+ writing you have to catch up on (and any supplies that you’d prefer to 
+ work with)!  \n\nWhen: Friday\, April 05\, 1:00PM – 3:00PM \n\nWhere: 
+ Blackburn Room\, 4th Floor\, Robarts Library (map)\n\nRegister below so 
+ that we can ensure adequate supplies\, but drop-in whenever works for you!
+LOCATION:Robarts Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Teaching & Engagement Unit":MAILTO:information.literacy@utoronto.ca
+CATEGORIES:Health & Wellness
+UID:LibCal-2020-3794852
+URL:https://libcal.library.utoronto.ca/event/3794852
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240409T170000Z
+DTEND:20240409T180000Z
+DTSTAMP:20240409T000000Z
+SUMMARY:Gerstein   MADLab 3D Printing Safety Training
+DESCRIPTION:\nThis session introduces tools\, techniques and best practices 
+ of 3D printing\, including the basics of 3D printing\, an introduction to 
+ the MADLab space\, and the models of 3D printers available for use. 
+ Instructors will demonstrate how to safely use the service and the machines 
+ from start to finish\, as well as how to find and prepare 3d models and 
+ software.  \n\nNote: Taking this workshop is the first step to becoming 
+ certified to use the Gerstein   MADLab 3D printing service. To complete 
+ certification you must also pass a knowledge quiz and sign a safety waiver. 
+ Please visit the Gerstein website for more information about accessing the 
+ service.\n\nAttendees will learn:\n\n\n	How the 3D printers work and how to 
+ use them safely \n	Where to find appropriate 3D design models and upload 
+ them to the printer \n	Tips and tricks for printing successfully 
+ \n	Policies for using the space and booking the printer \n	Where to find 
+ resources and help \n\n\nWhere: MADLab\, 1 Below\, Gerstein Science 
+ Information Centre \nWhen: Tuesday April 9th 1-2pm. ET\nInstructors: TBA\n
+LOCATION:Gerstein Library\, St. George (Downtown) Campus
+ORGANIZER;CN="Ask Gerstein!":MAILTO:ask.gerstein@utoronto.ca
+CATEGORIES:3D Printing
+UID:LibCal-2020-3777917
+URL:https://libcal.library.utoronto.ca/event/3777917
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240411T140000Z
+DTEND:20240411T160000Z
+DTSTAMP:20240411T000000Z
+SUMMARY:Strategies for Systematic\, Scoping\, or Other Comprehensive Searches of Literature - Part I
+DESCRIPTION:Part 1: Structured Approach to Searching the Literature for 
+ Knowledge Syntheses\n\nAudience: University of Toronto graduate students 
+ and researchers engaged in knowledge synthesis research. Registrants MUST 
+ be currently affiliated with the University of Toronto. \n\nDate: Thursday 
+ April 11\, 2024\n\nTime: 10:00am - 12:00pm (  recommended pre-session 
+ module\, approximately 30 minutes)\n\nLocation: In-Person - Robarts 
+ Library\, 4th Floor\, Electronic Classroom (with Online Option^)\n\n** NEW 
+ FOR 2024! How can generative AI be used to assist with search strategy 
+ development? **\n\nBy the end of Part 1 of this workshop series\, 
+ participants will be able to:\n\n\n	Practice using an objective\, 
+ structured method for developing sensitive search strategies required for 
+ knowledge synthesis\n	Use text-mining and generative AI tools to assist 
+ with search strategy development\n	Create advanced search strategies in 
+ Ovid Medline\n	Articulate how the quality of a search affects the quality 
+ of a review as a whole\n	Identify potential sources of bias in a search and 
+ implement strategies for mitigating them\n\n\n**Pre-Session 
+ Module**\n\nPlease review the online module “Planning Your Knowledge 
+ Synthesis Review” before attending class: 
+ https://tinyurl.com/planningareview\n\n^Online Option\n\nZoom link will be 
+ provided to registrants before the event. \n\nInstructors:\n\nErica 
+ Nekolaichuk  - Faculty Liaison and Instruction Librarian\n\nGlyneva 
+ Bradley-Ridout - Liaison & Education Librarian
+LOCATION:Robarts Library
+ORGANIZER;CN="Ask Gerstein!":MAILTO:ask.gerstein@utoronto.ca
+CATEGORIES:Library Research
+UID:LibCal-2020-3793836
+URL:https://libcal.library.utoronto.ca/event/3793836
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240411T181000Z
+DTEND:20240411T190000Z
+DTSTAMP:20240411T000000Z
+SUMMARY:Microcontrollers: The Basics (in-person)
+DESCRIPTION:This hands-on session will introduce you to the basics of 
+ microcontrollers. At the end of the workshop\, you will have a general 
+ understanding of circuitry and how to create a simple circuit. We have a 
+ limited number of kits so you may be working with a partner.\n\nLocation: 
+ UTSC Library - Makerspace AC256\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n 
+ \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC (see description for exact location)\, UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786688
+URL:https://libcal.library.utoronto.ca/event/3786688
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240417T181000Z
+DTEND:20240417T190000Z
+DTSTAMP:20240417T000000Z
+SUMMARY:Podcasts: The Basics (online)
+DESCRIPTION:This introductory workshop will introduce you to the tools and 
+ resources related to podcasts. You will learn about best practices for 
+ creating a podcast\, including choosing a format\, comparing recording 
+ software and selecting the proper equipment needed to complete your audio 
+ project.\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786694
+URL:https://libcal.library.utoronto.ca/event/3786694
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240418T140000Z
+DTEND:20240418T160000Z
+DTSTAMP:20240418T000000Z
+SUMMARY:Strategies for Systematic\, Scoping\, or Other Comprehensive Searches of Literature - Part 2
+DESCRIPTION:Part 2: Beyond Medline: Translating Search Strategies\, Grey 
+ Literature\, & Supplementary Search Techniques\n\nAudience: University of 
+ Toronto graduate students and faculty engaged in knowledge synthesis 
+ research. \n\nDate: Thursday\, April 18 2024\n\nTime: 10am - 
+ 12pm\n\nLocation: Robarts\, 4th Floor Electronic Classroom (  Online 
+ Option^)\n\n** NEW FOR 2024! How can generative AI be used to assist with 
+ search strategy development? **\n\nBy the end of Part 2 of this workshop 
+ series\, participants will be able to:\n\n\n	Play with ChatGPT to design 
+ skeleton search strategies \n	Translate and execute structured search 
+ strategies using different databases and interfaces\n	Engage Polyglot 
+ critically to accelerate search strategy translation processes\n	Utilize a 
+ methodological\, transparent approach to searching sources of grey 
+ literature\n	Demonstrate best practices for supplementary search techniques 
+ including hand-searching and reference tracking\n	Evaluate search methods 
+ to identify proper reporting\n\n\n^Online Option\n\nZoom link will be 
+ provided to registrants before the event. \n\nInstructors:\n\nErica 
+ Nekolaichuk  - Faculty Liaison and Instruction Librarian\n\nGlyneva 
+ Bradley-Ridout - Liaison & Education Librarian
+LOCATION:Robarts Library
+ORGANIZER;CN="Ask Gerstein!":MAILTO:ask.gerstein@utoronto.ca
+CATEGORIES:Library Research
+UID:LibCal-2020-3793838
+URL:https://libcal.library.utoronto.ca/event/3793838
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240418T181000Z
+DTEND:20240418T190000Z
+DTSTAMP:20240418T000000Z
+SUMMARY:Microcontrollers: Beyond the Basics (in-person)
+DESCRIPTION:This hands-on session will move beyond creating basic circuits. 
+ We will work with various sensors and other signal types. It is recommended 
+ that you attend the “Introduction to Microcontrollers” workshop 
+ beforehand or have a basic understanding of circuits and microcontrollers. 
+ We have a limited number of kits so you may be working with a 
+ partner.\n\nLocation: UTSC Library - Makerspace 
+ AC256\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC (see description for exact location)\, UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786692
+URL:https://libcal.library.utoronto.ca/event/3786692
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240424T181000Z
+DTEND:20240424T190000Z
+DTSTAMP:20240424T000000Z
+SUMMARY:Podcasts: Beyond the Basics (online)
+DESCRIPTION:During this session\, we'll go beyond the fundamentals of 
+ podcast creation. You'll gain insights into mastering\, podcast 
+ directories\, and RSS feeds. Additionally\, there will be a practical 
+ exercise involving the editing of an audio file using Audacity. To actively 
+ participate in this hands-on activity\, make sure to download the free 
+ program beforehand. \n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n 
+ \n\n\n\n
+LOCATION:UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3786696
+URL:https://libcal.library.utoronto.ca/event/3786696
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240425T181000Z
+DTEND:20240425T190000Z
+DTSTAMP:20240425T000000Z
+SUMMARY:Introduction to Cricut (online)
+DESCRIPTION:This online session will introduce you to Design Space\, the 
+ online tool that lets you create Cricut projects. During the interactive 
+ workshop\, you will learn how to browse the Cricut design database or use 
+ program tools to create your own project\, such as stickers or greeting 
+ cards. To participate\, make sure to download the free program 
+ beforehand.\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\n\n\n\n \n\n\n\n
+LOCATION:UTSC
+ORGANIZER;CN="Makerspace UTSC":MAILTO:makerspace.utsc@utoronto.ca
+CATEGORIES:Co-Curricular Record, Digital Tools
+UID:LibCal-2020-3789965
+URL:https://libcal.library.utoronto.ca/event/3789965
+END:VEVENT
+
+END:VCALENDAR

@@ -41,7 +41,7 @@ def find_non_conflicting_events(student_schedule, events_schedules):
 
 def filter_list_by_query(events_list, query=''):
     if query == '': return events_list
-    
+
 
 def pretty_print_schedule(schedule):
     reduced_events_json = json.dumps(schedule, indent=4)
@@ -50,10 +50,10 @@ def pretty_print_schedule(schedule):
 
 
 if __name__ == '__main__':
-    student_path = '../acorn_calendar.ics'
+    student_path = 'acorn_calendar.ics'
     student_text = load_ics_file(student_path)
 
-    events_path = '../events_calendar.ics'
+    events_path = 'events_calendar.ics'
     events_text = load_ics_file(events_path)
 
     initial_student_schedule = ics_to_dict(student_text)
