@@ -16,8 +16,7 @@ def fetch_credentials(dir='C:/Users/Efe/.openAI'):
         return secret_key
 
 DEBUG = True
-client = None
-#client = OpenAI(api_key=fetch_credentials(dir='C:/Users/ajwm8/.openAI' if DEBUG else 'C:/Users/Efe/.openAI'))
+client = None if DEBUG else OpenAI(api_key=fetch_credentials(dir='C:/Users/Efe/.openAI'))
 # Try to use GPT3.5-Turbo, then Baggage and Ada (which are about 4 times cheaper)
  # PUT YOUR OWN KEY HERE
 
@@ -76,20 +75,21 @@ def find_events():
 
         events = [event.name for event in non_conflicting_events]
 
-        # ChatGPT
-        comma_sep_list = find_activities_that_are_relevant(events, interests)
+        if not DEBUG:
 
-        print('testing', comma_sep_list)
+            # ChatGPT
+            comma_sep_list = find_activities_that_are_relevant(events, interests)
 
-        parsed = comma_sep_list.split(',')
+            print('testing', comma_sep_list)
 
-        print(parsed)
-        
+            events = comma_sep_list.split(',')
+
+            print(parsed)
         # Process the calendar and interests to get a list of events
         #events = process_calendar_and_interests(calendar, interests)
         # Now pass the list of events to another template (e.g., events.html)
 
-        return render_template('index.html', events=parsed)
+        return render_template('index.html', events=events)
     return redirect(url_for('home'))
 
 @application.route('/api/ping_post', methods=['POST'])
