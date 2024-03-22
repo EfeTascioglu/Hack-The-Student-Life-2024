@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import base64
 import os
@@ -11,6 +11,10 @@ def fetch_credentials(location="C:/Users/Efe/.AWS/credentials"):
 application = Flask(__name__)
 application.config['SECRET_KEY'] = fetch_credentials()
 CORS(application)
+
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 @application.route('/api/ping', methods=['GET'])
 def api_ping():
