@@ -150,4 +150,22 @@ for uid, event in events_dict.items():
 # Converting the Python dictionary to JSON
 reduced_events_json = json.dumps(reduced_events_dict, indent=4)
 
+def ics_to_dict(ics_content):
+    events_list = parse_ics(ics_content)
+    events_dict = {event["UID"]: event for event in events_list}
+    reduced_events_dict = {}
+    for uid, event in events_dict.items():
+        reduced_events_dict[uid] = {
+            "DESCRIPTION": event.get("DESCRIPTION", ""),
+            "LOCATION": event.get("LOCATION", ""),
+            "DTSTART": event.get("DTSTART", ""),
+            "DTEND": event.get("DTEND", ""),
+            "RRULE": event.get("RRULE", ""),
+            "EXDATE": event.get("EXDATE", [])
+        }
+    return reduced_events_dict
+
+# just for prettier printed visualization. we will just use the dict, not the json
+reduced_events_json = json.dumps(ics_to_dict(ics_data), indent=4)
+
 print(reduced_events_json)
