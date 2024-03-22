@@ -32,7 +32,7 @@ application = Flask(__name__)
 CORS(application)
 
 def find_activities_that_are_relevant(events, interests):
-    prompt = "A student has a list of interests and wants a list of events that are relevant to them. Take the following interests:\n" + str(interests) + "\nAnd the following list of events:\n" + str(events) + "\nReturn the indices of events that are most relevant to the student's interests as a comma seperated list. Do not return anything else. Do not explain your work. Return example: 0, 4, 6, 9"
+    prompt = "A student has a list of interests and wants a list of events that are relevant to them. Take the following interests:\n" + str(interests) + "\nAnd the following list of events:\n" + str(events) + "\nReturn the indices of events that are most relevant to the student's interests as a comma seperated list. Return At least 9 Values. Order them from most relevant of interests to least relevant. Do not return anything else. Do not explain your work. Return example: 0,4,6,9"
     return_val = request_chat_gpt(prompt)
     print(return_val)
     return_val = return_val.split(",")
