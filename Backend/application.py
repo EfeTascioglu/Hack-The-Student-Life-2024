@@ -78,12 +78,18 @@ def find_events():
 
         # ChatGPT
         comma_sep_list = find_activities_that_are_relevant(events, interests)
+
+        print('testing', comma_sep_list)
+
+        parsed = comma_sep_list.split(',')
+
+        print(parsed)
         
         # Process the calendar and interests to get a list of events
         #events = process_calendar_and_interests(calendar, interests)
         # Now pass the list of events to another template (e.g., events.html)
 
-        return render_template('index.html', events=events)
+        return render_template('index.html', events=parsed)
     return redirect(url_for('home'))
 
 @application.route('/api/ping_post', methods=['POST'])
