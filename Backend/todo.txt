@@ -5,7 +5,8 @@
 - overall flow:
 -- recieve a timetable
 -- return of events that fit into the open slots    
---- student events
+--- student events <- scrapedish online by andrew
 --- food
 --- study spots
 -- if time: prioritize events to near previous event's location
+--- if time: do this prioritization through chatgpt api call (to fit vegan preferences, etc)
