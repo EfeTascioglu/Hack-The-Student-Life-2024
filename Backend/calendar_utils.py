@@ -1,5 +1,7 @@
 from calendar_import import ics_to_dict
 from ics import Calendar
+from datetime import datetime, timedelta
+import calendar
 import json
 
 def load_ics_file(ics_file_path):
@@ -16,8 +18,13 @@ def is_conflicting(event1, event2):
     return not (event1.end <= event2.begin or event1.begin >= event2.end)
 
 def find_non_conflicting_events(student_schedule, events_schedules):
-    """Find events from the giant schedule that don't conflict with the student's schedule."""
+    """Find events from the giant schedule that don't conflict with the student's schedule and are within the current week."""
     non_conflicting_events = []
+
+    # Calculate the current week's start (Monday) and end (Sunday)
+    today = datetime.today()
+    start_of_week = today - timedelta(days=today.weekday())  # Monday
+    end_of_week = start_of_week + timedelta(days=6)  # Sunday
 
     if not isinstance(events_schedules, list):
         events_schedules = [events_schedules]
@@ -25,6 +32,10 @@ def find_non_conflicting_events(student_schedule, events_schedules):
     # Iterate over each event in the giant events schedule
     for events_schedule in events_schedules:
         for event in events_schedule.events:
+            # Check if the event is within the current week
+            if event.begin.datetime < start_of_week or event.end.datetime > end_of_week:
+                continue  # Skip events not within the current week
+            
             conflict_found = False
             
             # Check against each event in the student's schedule

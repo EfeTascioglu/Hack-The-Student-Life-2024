@@ -74,8 +74,8 @@ def find_events():
         # Process the calendar and interests to get a list of events
         events = process_calendar_and_interests(calendar, interests)
         # Now pass the list of events to another template (e.g., events.html)
-        
-        return render_template('events.html', events=events)
+
+        return render_template('index.html', events=events)
     return redirect(url_for('home'))
 
 @application.route('/api/ping_post', methods=['POST'])

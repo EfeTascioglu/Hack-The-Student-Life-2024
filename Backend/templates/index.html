@@ -110,6 +110,12 @@
             <span>Events for you</span>
             <h2>Events for you</h2>
             <p> Student </p>
+            <h1>Events Based on Your Interests</h1>
+            <ul>
+                {% for event in events %}
+                    <li>{{ event }}</li>
+                {% endfor %}
+            </ul>
           </div>
 
         </div>
