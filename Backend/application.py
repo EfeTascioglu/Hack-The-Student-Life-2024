@@ -25,14 +25,11 @@ def request_chat_gpt(prompt):
     #frequency_penalty=0.0,
     #presence_penalty=0.0,
     #stop=["\n", " Human:", " AI:"]
+    )
+    return completion.choices[0].message.content
 
-def fetch_credentials(location="C:/Users/Efe/.AWS/credentials"):
-    with open(location, 'r') as file:
-        # Return the second line:
-        return file.readlines()[1].strip().split(" = ")[1]
 
 application = Flask(__name__)
-if not DEBUG: application.config['SECRET_KEY'] = fetch_credentials()
 CORS(application)
 
 @application.route('/')
