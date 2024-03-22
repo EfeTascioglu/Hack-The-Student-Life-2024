@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Experience Student</title>
+  <title>BreakBridger</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,7 +43,7 @@
 
       <!-- <h1 class="logo"><a href="index.html">eNno</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo"><img src="{{ url_for('static', filename='img/breakbridger_logo.png') }}" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -115,9 +115,9 @@
         {% for event in events %}
           <div class="col-lg-4">
             <div class="testimonial-item">
-              <h3>{{ event }}</h3>
+              <h3>{{ event.name }}</h3>
               <p>
-                Description of event 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla justo purus, vehicula non suscipit eget, varius sed justo.
+                event.description
               </p>
             </div>
           </div>

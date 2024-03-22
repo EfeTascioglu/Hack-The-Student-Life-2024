@@ -3,6 +3,7 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 from ics import Calendar
 from calendar_utils import load_ics_file, find_non_conflicting_events, parse_text
+from calendar_import import ics_to_dict
 import base64
 import os
 from openai import OpenAI
@@ -15,9 +16,8 @@ def fetch_credentials(dir='C:/Users/Efe/.openAI'):
         secret_key = lines[2].split('=')[1].strip()
         return secret_key
 
-DEBUG = False
-#client = None
-client = OpenAI(api_key=fetch_credentials(dir='C:/Users/ajwm8/.openAI' if DEBUG else 'C:/Users/Efe/.openAI'))
+DEBUG = True
+client = None if DEBUG else OpenAI(api_key=fetch_credentials(dir='C:/Users/Efe/.openAI'))
 # Try to use GPT3.5-Turbo, then Baggage and Ada (which are about 4 times cheaper)
  # PUT YOUR OWN KEY HERE
 
@@ -54,6 +54,21 @@ def process_calendar_and_interests(calendar_file, interests):
     # Return a list of event names for demonstration
     return ["Event 1", "Event 2", "Event 3"]
 
+def process_events_to_descriptions(events, reduced_events_dict):
+    events_out = []
+    for event in events:
+        # Assuming `event` has an attribute `uid` that matches keys in `reduced_events_dict`
+        uid = getattr(event, 'uid', None)
+        if uid and uid in reduced_events_dict:
+            event_info = reduced_events_dict[uid]
+            events_out.append({
+                "name": getattr(event, 'name', ''),
+                "begin": getattr(event, 'begin', '').isoformat() if getattr(event, 'begin', None) else '',
+                "end": getattr(event, 'end', '').isoformat() if getattr(event, 'end', None) else '',
+                "description": event_info.get("DESCRIPTION", "")
+            })
+    return events_out
+
 @application.route('/find-events', methods=['POST'])
 def find_events():
     if 'calendarFile' not in request.files:
@@ -71,24 +86,45 @@ def find_events():
         student_text = load_ics_file(filepath)
 
         events_text = load_ics_file('static/events/events_calendar.ics')
+
+        events_dict = ics_to_dict(events_text)
         
+        print('event text', events_text)
         student_schedule = parse_text(student_text)
         events_schedule = parse_text(events_text)
         non_conflicting_events = find_non_conflicting_events(student_schedule, events_schedule)
 
-        events = [event.name for event in non_conflicting_events]
+        non_conflicting_events = find_non_conflicting_events(student_schedule, events_schedule)
+
+        # Process non-conflicting events to get descriptions
+        processed_events = process_events_to_descriptions(non_conflicting_events, events_dict)
+
+        events = processed_events
+
+        
 
         # ChatGPT
-        event_indices = find_activities_that_are_relevant(events, interests)
+        if not DEBUG:
+            event_indices = find_activities_that_are_relevant(events, interests)
 
-        print('testing', event_indices)
+            print('testing', event_indices)
 
-        events_out = []
-        for i, event in enumerate(events):
-            if i in event_indices:
+            events_out = []
+            for i, event in enumerate(events):
+                if i in event_indices:
+                    dict_thing = {
+                        'name': event.name,
+                        'description': 'haaa',
+                    }
+                    events_out.append(event.name)
+
+            events = events_out
+        else:
+            events_out = []
+            for i, event in enumerate(events):
                 events_out.append(event)
 
-        events = events_out
+            events = events_out
         
         # Process the calendar and interests to get a list of events
         #events = process_calendar_and_interests(calendar, interests)
