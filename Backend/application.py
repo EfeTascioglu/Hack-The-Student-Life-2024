@@ -24,18 +24,17 @@ client = None
 def request_chat_gpt(prompt):
     completion = client.chat.completions.create(model="gpt-3.5-turbo",
     messages=[{"role": "user", "content": prompt}]
-    #max_tokens=100,
-    #'temperature=0.9,
-    #top_p=1.0,
-    #frequency_penalty=0.0,
-    #presence_penalty=0.0,
-    #stop=["\n", " Human:", " AI:"]
     )
     return completion.choices[0].message.content
 
 
 application = Flask(__name__)
 CORS(application)
+
+def find_activities_that_are_relevant(events, interests):
+    prompt = "A student has a list of interests and wants a list of events that are relevant to them. Take the following interests:\n" + str(interests) + "\nAnd the following list of events:\n" + str(events) + "\nReturn the indices of events that are most relevant to the student's interests."
+    
+    return request_chat_gpt(prompt)
 
 @application.route('/')
 def home():
