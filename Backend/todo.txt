@@ -1,0 +1,11 @@
+- find empty timeslots - return 
+- find events that are happening at that time
+- assign events to these times
+
+- overall flow:
+-- recieve a timetable
+-- return of events that fit into the open slots    
+--- student events
+--- food
+--- study spots
+-- if time: prioritize events to near previous event's location
