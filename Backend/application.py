@@ -6,6 +6,7 @@ from calendar_utils import load_ics_file, find_non_conflicting_events, parse_tex
 from calendar_import import ics_to_dict
 import base64
 import os
+from datetime import datetime
 from openai import OpenAI
 
 def fetch_credentials(dir='C:/Users/Efe/.openAI'):
@@ -54,6 +55,14 @@ def process_calendar_and_interests(calendar_file, interests):
     # Return a list of event names for demonstration
     return ["Event 1", "Event 2", "Event 3"]
 
+def format_datetime(iso_datetime_str):
+    if iso_datetime_str == '': return ''
+    # Parse the ISO 8601 string to a datetime object
+    dt = datetime.fromisoformat(iso_datetime_str.rstrip('Z'))
+    # Format the datetime object to a more readable string, e.g., "April 24, 2024, 18:10"
+    formatted_dt = dt.strftime('%B %d, %Y, %H:%M')
+    return formatted_dt
+
 def process_events_to_descriptions(events, reduced_events_dict):
     events_out = []
     for event in events:
@@ -63,8 +72,8 @@ def process_events_to_descriptions(events, reduced_events_dict):
             event_info = reduced_events_dict[uid]
             events_out.append({
                 "name": getattr(event, 'name', ''),
-                "begin": getattr(event, 'begin', '').isoformat() if getattr(event, 'begin', None) else '',
-                "end": getattr(event, 'end', '').isoformat() if getattr(event, 'end', None) else '',
+                "begin": format_datetime(getattr(event, 'begin', '').isoformat()) if getattr(event, 'begin', None) else '',
+                "end": format_datetime(getattr(event, 'end', '').isoformat()) if getattr(event, 'end', None) else '',
                 "description": event_info.get("DESCRIPTION", "")
             })
     return events_out
