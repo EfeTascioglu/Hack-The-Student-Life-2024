@@ -34,6 +34,11 @@ def request_chat_gpt(prompt):
 application = Flask(__name__)
 CORS(application)
 
+def find_activities_that_are_relevant(events, interests):
+    prompt = "A student has a list of interests and wants a list of events that are relevant to them. Take the following interests:\n" + str(interests) + "\nAnd the following list of events:\n" + str(events) + "\nReturn the indices of events that are most relevant to the student's interests."
+    
+    return request_chat_gpt(prompt)
+
 @application.route('/')
 def home():
     return render_template('index.html')
