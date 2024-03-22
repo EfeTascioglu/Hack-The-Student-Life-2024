@@ -3,16 +3,18 @@ from flask_cors import CORS
 import base64
 import os
 
+DEBUG = True
+
 def fetch_credentials(location="C:/Users/Efe/.AWS/credentials"):
     with open(location, 'r') as file:
         # Return the second line:
         return file.readlines()[1].strip().split(" = ")[1]
 
 application = Flask(__name__)
-application.config['SECRET_KEY'] = fetch_credentials()
+if not DEBUG: application.config['SECRET_KEY'] = fetch_credentials()
 CORS(application)
 
-@app.route('/')
+@application.route('/')
 def home():
     return render_template('index.html')
 
