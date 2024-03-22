@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, render_template, redirect, url_for
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
 from ics import Calendar
+from calendar_utils import load_ics_file, find_non_conflicting_events
 import base64
 import os
 from openai import OpenAI
